@@ -1,0 +1,9 @@
+Please refer to the User Guide tab for support. 
+
+For technical support with the application, contact: DataScienceUnit@gov.wales 
+
+For data/modelling queries contact: InputOutputTables@gov.wales 
+
+We would welcome user feedback on the  tool – please contact: InputOutputTables@gov.wales 
+
+@Built by WG Data Science Unit 

@@ -1,0 +1,14 @@
+# Input Output Table Analysis Tool
+
+This is the Input Output Table Scenario Planning Tool.
+
+The Welsh Government Data Science Unit and Input Output Analysis team built this tool to model relationships between sectors based on an Input Output Table (IOT).
+
+Those wishing to familiarise themselves with Input Output analysis are directed to Miller & Blair (2019)
+
+If you are interested in performing your own analysis we provide the code behind the tool:
+* Interactive web app code:
+* Python package for IOT modelling:
+* R package for IOT modelling:
+
+**Please note: Each time you refresh or open this web app you will need to acknowledge that you have read the Caveats and User Guide in the User Guide section by ticking the box**

@@ -1,0 +1,10 @@
+#### Custom Data Format:
+When uploading your own data for analysis it is important that it is in the same format as the image at the bottom of the page.
+
+1. Sector names: Column containing the names of the sectors, must be the first column. 
+2. Input Output Matrix: This is the sector by sector input/output data. Must be square (same number of rows as there are columns) and sectors must
+be named in the same way on the row and column headers. Must be between the Sector Names and Intermediate Demand columns.
+3. Intermediate Demand: Column containing the sum of intermediate use, must be immediately to the right of the sector-by-sector transaction matrix. 
+4. (Optional) Household Consumption: Column containing the household final consumption expenditure, which is used to model induced demand when this option is enabled.
+5. (Optional) Income: Row containing the labour input (income) by sector, which is used to model induced demand when this option is enabled.
+6. Total output: Row containing the total output of each sector including the intermediate demand consumption of each other sector, final demand and exports.  

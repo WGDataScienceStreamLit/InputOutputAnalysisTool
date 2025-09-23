@@ -1,0 +1,5 @@
+This page displays an example IOT that is used to demonstrate what the app can do.
+
+The controls below enable you to upload a new IOT, or to restore the example.
+
+If you are uploading your own IOT please refer to the guidance at the bottom of the page, or start by downloading a template.

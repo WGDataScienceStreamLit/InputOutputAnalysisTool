@@ -1,0 +1,12 @@
+﻿Industry Purchases ↓  Industry Sales →,Agriculture,Production,Construction,Services,Total intermediate use,Households final consumption expenditure,Other final consumption expenditure,Gross capital formation,Exports,Total demand at basic prices
+Agriculture,10,100,10,10,130,150,10,5,400,695
+Production,100,2000,100,1500,3700,2000,150,300,12000,18150
+Construction,10,150,1500,500,2160,300,70,1500,1000,5030
+Services,100,2000,100,5000,7200,12000,15000,1010,6500,41710
+Total intermediate domestic purchases,220,4250,1710,7010,13190,14450,15230,2815,19900,65585
+Imports,250,10000,1000,10000,21250,10000,3000,5000,0,0
+Compensation of employees,75,1800,1000,15000,17875,0,0,0,0,0
+Other value added,200,1500,1200,9000,11900,0,0,0,0,0
+Taxes less subsidies on production,-100,100,20,200,220,0,0,0,0,0
+Taxes less subsidies on products,50,500,100,500,1150,1000,120,200,2000,0
+Total output at basic prices,695,18150,5030,41710,65585,25450,18350,8015,21900,0

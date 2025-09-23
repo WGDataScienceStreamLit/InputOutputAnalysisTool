@@ -1,0 +1,46 @@
+### Introduction
+
+Welcome to the **Input Output Table (IOT) Scenario Planning Tool**.
+
+Welcome to the Input Output Table (IOT) Scenario Planning Tool.
+
+This tool has been built by the Data Science Unit to model the relationships between sectors based on an Input Output table. Those wishing to learn more about Input Output analysis are directed to [Miller & Blair (2009)](http://digamo.free.fr/io2009.pdf).
+
+
+### Tabs
+
+The tool is separated into three distinct tabs, all accessible from the menu at the top of each tab. 
+
+#### User Guide
+
+This page displays: 
+* Guidance for using the application 
+* Caveats explaining how Input Output modelling should be used and its limitations. 
+
+#### IOT
+This page displays the IOT that the app is using.  
+
+On this tab you can upload your own IOT to perform analysis on your economic data. For the application to work your data must be formatted according to the guidance at the bottom of the page. Alternatively, you can download the example to use as a template. 
+
+When you upload your own IOT some menu options will appear, use these options to clarify the columns that: 
+* contain sector codes or names for labelling charts and figures and indexing 
+* contain Total Intermediate Use data
+* contain the Total Output data (Total Intermediate Use + Final Demand + Exports) 
+* contain the household final demand by sector (Type 2 only)
+* contain the labour input (income) by sector (Type 2 only) 
+
+You can optionally specify an alternative constant to be used as the denominator when calculating the household expenditure coefficients and Type 2 multipliers, instead of relying on the total household consumption expenditure figure from the IOT.
+
+For example, the Scottish Government uses [total household income from all sources (PDF)](https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2019/08/input-output-latest/documents/sut-methodology-guide/sut-methodology-guide/govscot%3Adocument/IO%2BMethodology%2BGuide%2Bv9.pdf) [as reported in the ONS Gross Disposable Household Income [GDHI] statistics](https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/articles/developmentofregionalhouseholdexpendituremeasures/2025-03-12). This approach reflects the fact that not all household consumption is funded by earned income; a significant portion is financed through unearned income such as pensions, dividends, and other transfers. Including these unearned sources in the feedback loop would artificially inflate the effect of earned income in generating further rounds of household spending.
+
+If the constant is left as zero, the model defaults to using total household consumption expenditure as the denominator. This can overstate the induced effects if no separate adjustments are made to the labour input row.
+
+#### Scenario Planning
+On this tab you can model a scenario: 
+* On this page you define which type of IOT model you want to use: 
+  * Type 1: Direct and Indirect Demand 
+  * Type 2: Direct, Indirect and Induced Demand from labour input
+* Change the demand in different sectors 
+* Analyse the Direct, Indirect and Induced Demand based on the scenario 
+* Compare the demand from your scenario with the current output from your IOT 
+* Download and perform your own analysis on the outputs 
