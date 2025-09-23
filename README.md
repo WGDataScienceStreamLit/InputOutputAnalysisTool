@@ -14,7 +14,7 @@ __Please note: This tool uses a fictional Input-Output table for a four-sector e
 
 a. Clone the repo
 ```
-git clone 
+git clone https://github.com/wgdsu/InputOutputAnalysisTool.git
 ```
 
 b. Switch to the project repo:
@@ -50,3 +50,4 @@ In the root directory `/InputOutputModellingTool/` run:
 ```
 python -m streamlit run app.py
 ```
+
