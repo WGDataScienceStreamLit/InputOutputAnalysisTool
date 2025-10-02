@@ -14,7 +14,7 @@ __Please note: This tool uses a fictional Input-Output table for a four-sector e
 
 a. Clone the repo
 ```
-git clone https://github.com/wgdsu/InputOutputAnalysisTool.git
+git clone https://github.com/wgdsu/iot-leontief-python.git
 ```
 
 b. Switch to the project repo:
@@ -34,7 +34,7 @@ pip install .
 ## Clone this tool
 2. Clone this application:
 ``` 
-git clone 
+git clone https://github.com/wgdsu/InputOutputAnalysisTool.git
 
 cd InputOutputModellingTool
 ```
@@ -50,4 +50,5 @@ In the root directory `/InputOutputModellingTool/` run:
 ```
 python -m streamlit run app.py
 ```
+
 
