@@ -2,8 +2,6 @@
 
 Welcome to the **Input Output Table (IOT) Scenario Planning Tool**.
 
-Welcome to the Input Output Table (IOT) Scenario Planning Tool.
-
 This tool has been built by the Data Science Unit to model the relationships between sectors based on an Input Output table. Those wishing to learn more about Input Output analysis are directed to [Miller & Blair (2009)](http://digamo.free.fr/io2009.pdf).
 
 
