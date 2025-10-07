@@ -9,6 +9,6 @@ Those wishing to familiarise themselves with Input Output analysis are directed 
 If you are interested in performing your own analysis we provide the code behind the tool:
 * Interactive web app code: https://github.com/wgdsu/InputOutputAnalysisTool
 * Python package for IOT modelling: https://github.com/wgdsu/iot-leontief-python
-* R package for IOT modelling: Coming soon
+* R package for IOT modelling: https://github.com/wgdsu/iot-leontief-r
 
 **Please note: Each time you refresh or open this web app you will need to acknowledge that you have read the Caveats and User Guide in the User Guide section by ticking the box**
